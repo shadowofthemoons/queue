@@ -153,6 +153,8 @@
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="Queue.h" />
+    <ClInclude Include="TJobStream.h" />
+    <ClInclude Include="TProc.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -162,6 +164,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="TJobStream.cpp" />
+    <ClCompile Include="TProc.cpp" />
     <ClCompile Include="_Queue_.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
